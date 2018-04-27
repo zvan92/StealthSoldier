@@ -1,7 +1,7 @@
 # Stealth Soldier
 2D Frogger-like game built in C++ using SDL 2.0
 
-## How to build in Visual Studio:
+## How to build in Visual Studio (x86):
 
 You'll need to acquire: 
 <br>
@@ -29,7 +29,10 @@ SDL2_ttf.dll<br>
 libfreetype-6.dll
 <br>
 <br>
-Finally, you need to point your project to the /lib and /include directories of your SDL installation and add SDL2.lib, SDL2main.lib, SDL2_ttf.lib, SDL2_mixer.lib, and SDL2_image.lib to your project's additional dependencies. I built the application successfully from an empty Visual C++ template in VS 2015 with no issues.
+Finally, you need to point your project to the /lib and /include directories of your SDL installation and add SDL2.lib, SDL2main.lib, SDL2_ttf.lib, SDL2_mixer.lib, and SDL2_image.lib to your project's additional dependencies.
+<br>
+<br>
+<b>NOTE:</b> the program will only build in x86 mode.
 <br>
 <br>
 If you are unsure of anything, http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvsnet2010u/index.php has a simple guide on how to do all of this.
