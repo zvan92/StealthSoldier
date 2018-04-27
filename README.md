@@ -3,7 +3,7 @@
 
 ## How to build in Visual Studio (x86):
 
-You'll need to acquire: 
+Start from an empty Visual C++ project. You'll need to acquire: 
 <br>
 <br>
 SDL 2.0 Visual C++ 32/64-bit development libraries: https://www.libsdl.org/download-2.0.php
