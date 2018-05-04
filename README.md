@@ -42,10 +42,10 @@ libfreetype-6.dll
 <h3>Step 5:</h3>
 <br>
 a) In the Visual Studio solution explorer, right-click on your project (not the solution) and go to Properties > Configuration Properties > VC++ Directories.<br>
-b) Click on Include Directories and select the drop-down menu arrow that appears on the right side of the window and hit '<Edit...>'.<br>
+b) Click on Include Directories and select the drop-down menu arrow that appears on the right side of the window and hit 'Edit...'.<br>
 c) In the Include Directories window, click the New Line button and enter the path to your SDL installation's /include folder (i.e. C:/SDL2/include) and hit OK.<br>
 d) Click on Library Directories and click the drop-down menu arrow that appears. In this window, add a new line that points to your SDL installation's /lib folder (i.e. C:/SDL2/lib) and hit OK.<br>
-e) Expand the Linker section in the Configuration Properties menu on the left and click on Input. Click on Additional Dependencies, select its drop-down menu arrow, and then hit '<Edit...>'.<br>
+e) Expand the Linker section in the Configuration Properties menu on the left and click on Input. Click on Additional Dependencies, select its drop-down menu arrow, and then hit 'Edit...'.<br>
 f) In the Additional Dependencies window add the following text:
 <br>
 SDL2.lib; 
