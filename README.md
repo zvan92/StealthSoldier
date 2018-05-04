@@ -33,6 +33,7 @@ Copy and paste all the files into the base folder of your new project (i.e. C:/U
 <br>
 Copy these .dll files from the SDL2 /lib folder into the project's working directory (i.e. C:/Users/Evan/C++ Projects/StealthSoldier/StealthSoldier):
 <br>
+<br>
 SDL2.dll,
 SDL2_mixer.dll,
 SDL2_image.dll,
@@ -47,6 +48,7 @@ c) In the Include Directories window, click the New Line button and enter the pa
 d) Click on Library Directories and click the drop-down menu arrow that appears. In this window, add a new line that points to your SDL installation's /lib folder (i.e. C:/SDL2/lib) and hit OK.<br>
 e) Expand the Linker section in the Configuration Properties menu on the left and click on Input. Click on Additional Dependencies, select its drop-down menu arrow, and then hit 'Edit...'.<br>
 f) In the Additional Dependencies window add the following text:
+<br>
 <br>
 SDL2.lib; 
 SDL2main.lib; 
