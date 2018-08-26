@@ -24,7 +24,7 @@ In Visual Studio, create a new Empty Visual C++ Project (File > New Project > Vi
 <br>
 <h3>Step 2:</h3>
 <br>
-Download the files from this repo and extract them somewhere.
+Download the .zip of this repo and extract the contents of the root folder somewhere.
 <br>
 <h3>Step 3:</h3>
 <br>
@@ -46,9 +46,8 @@ libfreetype-6.dll
 a) In the Visual Studio solution explorer, right-click on your project (not the solution) and go to Properties > Configuration Properties > VC++ Directories.<br>
 b) Click on Include Directories, select the drop-down menu arrow that appears on the right side of the window, and hit 'Edit...'.<br>
 c) In the Include Directories window, click the New Line button and enter the path to your SDL installation's /include folder (i.e. C:/SDL2-2.0.8/include) and hit OK.<br>
-d) Click on Library Directories and then click the drop-down menu arrow that appears, followed by the "Edit..." button. In the window that appears, add a new line that points to your SDL installation's /lib folder (i.e. C:/SDL2-2.0.8/lib/x86) and hit OK.<br>
-e) Expand the Linker section in the Configuration Properties menu on the left and then click Input. Next, click on Additional Dependencies, select its drop-down menu arrow, and then hit 'Edit...'.<br>
-f) In the Additional Dependencies window add the following text:
+d) Click on Library Directories and then click the drop-down menu arrow that appears, followed by the "Edit..." button. In the window that appears, add a new line that points to your SDL installation's /lib folder (i.e. C:/SDL2-2.0.8/lib) and hit OK.<br>
+e) Expand the Linker section in the Configuration Properties menu on the left and then click Input. Next, click on Additional Dependencies, select its drop-down menu arrow, and then hit 'Edit...'. In the Additional Dependencies window add the following text:
 <br>
 <br>
 SDL2.lib; 
@@ -58,7 +57,11 @@ SDL2_mixer.lib;
 SDL2_image.lib;
 <br>
 <br>
-After following the above steps carefully, all you need to do is build and run the program in Debug mode (x86) and the game will load.<br>
+f) In the Linker section of the left menu, select System. Then, select the drop-down button next to SubSystem, select "Console (/SUBSYSTEM:CONSOLE))" and then hit OK.<br>
+e) Finally, drag all the .cpp files and .h files from the project's base folder into the Solution Explorer of your opened project in Visual Studio. After this, you're ready to build!
+<br>
+<br>
+After following the above steps carefully, all you need to do is build and run the program in Debug mode (x86) and the game will be playable.<br>
 If you have any trouble getting SDL set up with Visual Studio, follow this simple guide: http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvsnet2010u/index.php
 <br>
 <h3>Happy Gaming! :-)</h3>
