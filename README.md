@@ -6,16 +6,17 @@
 Before you start, download these packages: 
 <br>
 <br>
-SDL2-devel-2.0.8-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/download-2.0.php
+SDL2-devel-2.0.8-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip
 <br>
-SDL2_mixer-devel-2.0.2-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_mixer/
+SDL2_mixer-devel-2.0.2-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.2-VC.zip
 <br>
-SDL2_ttf-2.0.14-win32-x86.zip (32-bit Windows): https://www.libsdl.org/projects/SDL_ttf/
+SDL2_ttf-devel-2.0.14-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip
 <br>
-SDL2_image-2.0.3-win32-x86.zip (32-bit Windows): https://www.libsdl.org/projects/SDL_image/
+SDL2_image-devel-2.0.3-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.3-VC.zip
 <br>
 <br>
-Extract "SDL2-devel-2.0.8-VC.zip" wherever you want, but it's ideal to have it placed somewhere easy to locate, like the root folder of your drive (i.e. C:/). When extracted, it will create a folder called "SDL2-2.0.8". Extract the contents of "SDL2_mixer-devel-2.0.2-VC.zip", "SDL2_ttf-2.0.14-win32-x86.zip", and "SDL2_image-2.0.3-win32-x86.zip" to this folder, overwriting all existing files when it asks you to. If done properly, the "SDL-2.0.8" folder will still contain one 'lib' folder and one 'include' folder. With that, you can continue on to set up SDL with your Visual Studio and build the game!
+Extract "SDL2-devel-2.0.8-VC.zip" wherever you want, but it's ideal to have it placed somewhere easy to locate, like the root folder of your drive (i.e. C:/). When extracted, it will create a folder called "SDL2-2.0.8".<br>
+The other 3 .zip files will each have a root folder (SDL2_mixer-2.0.2, SDL2_ttf-2.02, SDL2_image-2.0.3) that contains a 'lib' folder, an 'include' folder, and some other files. Extract the contents of these root folders to the "SDL2-2.0.8" folder that you created earlier, overwriting all existing files when it asks you to. If done properly, the "SDL-2.0.8" folder will still only contain one 'lib' folder and one 'include' folder. With that, you can continue on to set up SDL with your Visual Studio and build the game!
 <br>
 <h3>Step 1:</h3>
 <br>
