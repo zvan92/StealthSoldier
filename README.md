@@ -31,7 +31,7 @@ Copy and paste all the repo files into the base folder of your new project (i.e.
 <br>
 <h3>Step 4:</h3>
 <br>
-Copy the following .dll files from "SDL2-2.0.8/lib" and paste them into the Visual Studio project's working directory (i.e. C:/Users/Evan/C++ Projects/StealthSoldier/StealthSoldier):
+Copy the following .dll files from "SDL2-2.0.8/lib/x86" and paste them into the Visual Studio project's working directory (i.e. C:/Users/Evan/C++ Projects/StealthSoldier/StealthSoldier):
 <br>
 <br>
 SDL2.dll,
@@ -45,7 +45,7 @@ libfreetype-6.dll
 a) In the Visual Studio solution explorer, right-click on your project (not the solution) and go to Properties > Configuration Properties > VC++ Directories.<br>
 b) Click on Include Directories, select the drop-down menu arrow that appears on the right side of the window, and hit 'Edit...'.<br>
 c) In the Include Directories window, click the New Line button and enter the path to your SDL installation's /include folder (i.e. C:/SDL2-2.0.8/include) and hit OK.<br>
-d) Click on Library Directories and then click the drop-down menu arrow that appears, followed by the "Edit..." button. In the window that appears, add a new line that points to your SDL installation's /lib folder (i.e. C:/SDL2-2.0.8/lib) and hit OK.<br>
+d) Click on Library Directories and then click the drop-down menu arrow that appears, followed by the "Edit..." button. In the window that appears, add a new line that points to your SDL installation's /lib folder (i.e. C:/SDL2-2.0.8/lib/x86) and hit OK.<br>
 e) Expand the Linker section in the Configuration Properties menu on the left and then click Input. Next, click on Additional Dependencies, select its drop-down menu arrow, and then hit 'Edit...'.<br>
 f) In the Additional Dependencies window add the following text:
 <br>
