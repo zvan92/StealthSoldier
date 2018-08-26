@@ -1,6 +1,9 @@
 # Stealth Soldier
 2D Frogger-like game built in C++ using SDL 2.0
 
+## Play Without Building:
+If you wish to play without building the game yourself, simply extract "ReleaseBuild.zip" file and run the .exe.
+
 ## How to build in Visual Studio:
 
 Before you start, download these packages: 
