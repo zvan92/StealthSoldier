@@ -73,7 +73,7 @@ SDL2_image.lib;
 f) In the Linker section of the left menu, select System. Then, select the drop-down button next to SubSystem, select "Console (/SUBSYSTEM:CONSOLE))" and then hit OK.
 <br>
 <br>
-e) Finally, drag all the .cpp files and .h files from the project's base folder into the Solution Explorer of your open project in Visual Studio.
+e) Finally, drag all the .cpp files from the project's base folder into the "Source Files" folder of the open project's Solution Explorer in Visual Studio, and drag all the .h files into the "Header Files" folder.
 <br>
 <br>
 After following the above steps carefully, all you need to do is build and run the program in Debug mode (x86) and play!
