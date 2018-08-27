@@ -5,7 +5,8 @@
 If you wish to play without building the game yourself, simply extract "ReleaseBuild.zip" and run the .exe:<br>
 https://zvan92.github.io/StealthSoldier/ReleaseBuild.zip
 
-## How to build in Visual Studio (Debug x86):
+## How to build in Visual Studio 2015 (Debug x86):
+#### NOTE: This build will NOT work in Visual Studio 2017. Compatibility issues are being worked on.
 
 Before you start, download these packages: 
 <br>
