@@ -11,13 +11,10 @@ https://zvan92.github.io/StealthSoldier/ReleaseBuild.zip
 Before you start, download these packages: 
 <br>
 <br>
-SDL2-devel-2.0.8-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip
-<br>
-SDL2_mixer-devel-2.0.2-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.2-VC.zip
-<br>
-SDL2_ttf-devel-2.0.14-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip
-<br>
-SDL2_image-devel-2.0.3-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.3-VC.zip
+* SDL2-devel-2.0.8-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip
+* SDL2_mixer-devel-2.0.2-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.2-VC.zip
+* SDL2_ttf-devel-2.0.14-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip
+* SDL2_image-devel-2.0.3-VC.zip (Visual C++ 32/64-bit): https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.3-VC.zip
 <br>
 <br>
 Extract "SDL2-devel-2.0.8-VC.zip" wherever you want, but it's ideal to have it placed somewhere easy to locate, like the root folder of your drive (i.e. C:/). When extracted, it will create a folder called "SDL2-2.0.8".<br>
