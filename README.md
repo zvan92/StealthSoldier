@@ -1,6 +1,9 @@
 # Stealth Soldier
 2D Frogger-like game built in C++ using SDL 2.0
 
+## Gameplay Footage:
+https://youtu.be/N3rN90K1PvE
+
 ## Play Without Building:
 If you wish to play without building the game yourself, simply extract "ReleaseBuild.zip" and run the .exe:<br>
 https://zvan92.github.io/StealthSoldier/ReleaseBuild.zip
