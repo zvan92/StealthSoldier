@@ -1,5 +1,5 @@
 # Stealth Soldier
-2D Frogger-like game built in C++ using SDL 2.0
+2D Frogger-like game built in C++ using SDL 2.0. See included 'GDD.docx' (Game Design Document) for more information.
 
 ## Gameplay Footage:
 https://youtu.be/N3rN90K1PvE
